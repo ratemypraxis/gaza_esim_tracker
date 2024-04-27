@@ -5,6 +5,7 @@ import Footer from './Footer';
 import HeaderNavBar from './HeaderNavBar';
 import Timeline from './Timeline';
 import HowEsimWorks from './HowEsimWorks';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const HomePage = () => (
   <div>
