@@ -20,22 +20,23 @@ const StyledHeader = styled(Header)`
 `;
 
 const StyledTimeline = styled.div`
-  width: 800px;
+  width: ${(prop) => (prop.isMobile ? '90%' : '60%')};
 `;
 
 const Timeline = () => {
+  const isMobile = window.innerWidth <= 500;
   return (
     <Container>
       <StyledHeader as="h3" textAlign="center">
         What happened?
       </StyledHeader>
-      <StyledTimeline>
+      <StyledTimeline isMobile={isMobile}>
         <Chrono
           items={items}
-          mode="HORIZONTAL"
-          cardHeight={400}
-          cardWidth={600}
-          mediaHeight={300}
+          mode={isMobile ? 'VERTICAL' : 'HORIZONTAL'}
+          cardHeight={isMobile ? 300 : 400}
+          cardWidth={isMobile ? 200 : 600}
+          mediaHeight={isMobile ? 150 : 300}
           disableToolbar
           fontSizes={{
             cardText: '1rem',
