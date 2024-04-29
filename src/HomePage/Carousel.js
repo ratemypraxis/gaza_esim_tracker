@@ -18,7 +18,8 @@ import rightArrow from '../assets/images/rightArrow.png';
 import { color } from '../theme';
 
 const StyledImage = styled(Image)`
-  object-fit: contain;
+  width: 400px;
+  height: 400px;
 `;
 
 const StyledButtonContainer = styled.div`
