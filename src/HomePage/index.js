@@ -6,6 +6,7 @@ import HeaderNavBar from './HeaderNavBar';
 import Timeline from './Timeline';
 import HowEsimWorks from './HowEsimWorks';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import FundraisingEfforts from './FundraisingEfforts';
 
 const HomePage = () => (
   <div>
@@ -13,6 +14,7 @@ const HomePage = () => (
     <Cover />
     <Timeline />
     <HowEsimWorks />
+    <FundraisingEfforts />
     <Footer />
   </div>
 );

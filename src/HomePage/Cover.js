@@ -46,19 +46,6 @@ const CoverImgText = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
 `;
 
-// const CoverImgText = styled.div`
-//   color: white;
-//   position: absolute;
-//   top: 60%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-//   font-size: 1.2em;
-//   border: 2px solid white;
-//   width: 40%;
-//   padding: 30px;
-//   background-color: rgba(0, 0, 0, 0.5);
-// `;
-
 const Cover = () => {
   const isMobile = window.innerWidth <= 500;
   return (
