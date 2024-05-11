@@ -9,12 +9,18 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import FundraisingEfforts from './FundraisingEfforts';
 
 const HomePage = () => (
-  <div>
+  <div id="top">
     <HeaderNavBar />
     <Cover />
-    <Timeline />
-    <HowEsimWorks />
-    <FundraisingEfforts />
+    <div id="whatHappened">
+      <Timeline />
+    </div>
+    <div id="howEsimWorks">
+      <HowEsimWorks />
+    </div>
+    <div id="fundraisingEfforts">
+      <FundraisingEfforts />
+    </div>
     <Footer />
   </div>
 );

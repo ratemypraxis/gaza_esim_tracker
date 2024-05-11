@@ -2,7 +2,7 @@
   {
     "title": "7 October 2023",
     "cardTitle": "Hamas' October 7 attack",
-    "cardDetailedText": "Internet disruptions began on the same day that intense military actions started",
+    "cardDetailedText": "Internet disruptions began on the same day that intense military actions started. Cybersecurity watchdog NetBlocks confirmed that the “near-total internet blackout” would be “experienced as a total loss of communications by most residents”.",
     "url": "https://www.aljazeera.com/news/2023/12/4/telecommunications-internet-down-in-gaza-as-israeli-strikes-intensify",
     "media": {
       "type": "IMAGE",
@@ -39,19 +39,37 @@
     "title": "1 November 2023",
     "cardTitle": "Internet and telecommunications shutdown",
     "cardDetailedText": "A complete shutdown of internet and telecommunications services occurred overnight, lasting approximately 8-9 hours. Services were briefly restored in the afternoon but went down again within an hour​",
-    "url": "https://www.accessnow.org/publication/palestine-unplugged/"
+    "url": "https://www.accessnow.org/publication/palestine-unplugged/",
+    "media": {
+      "type": "IMAGE",
+      "source": {
+        "url": "https://www.accessnow.org/wp-content/uploads/2023/10/Gaza-ceasefire-advocacy-post-header.jpg"
+      }
+    }
   },
   {
     "title": "5 November 2023",
     "cardTitle": "Internet disruption",
     "cardDetailedText": "Another significant disruption occurred starting at 6:15 PM local time, with services resuming the following morning on November 6 around 9:18 AM​",
-    "url": "https://www.accessnow.org/publication/palestine-unplugged/"
+    "url": "https://www.accessnow.org/publication/palestine-unplugged/",
+    "media": {
+      "type": "IMAGE",
+      "source": {
+        "url": "https://www.accessnow.org/wp-content/uploads/2023/10/Gaza-ceasefire-advocacy-post-header.jpg"
+      }
+    }
   },
   {
     "title": "7 November 2023",
     "cardTitle": "Internet blackouts frequently",
     "cardDetailedText": "This is at least the fourth time since the war started that Palestinians in Gaza have been completely shut off from the rest of the world. Despite these frequent and unpredictable disruptions, at least 33,000 people have stayed connected thanks to the grassroots efforts of people donating electronic sim cards.​",
-    "url": "https://www.accessnow.org/publication/palestine-unplugged/"
+    "url": "https://www.accessnow.org/publication/palestine-unplugged/",
+    "media": {
+      "type": "IMAGE",
+      "source": {
+        "url": "https://www.accessnow.org/wp-content/uploads/2023/10/Gaza-ceasefire-advocacy-post-header.jpg"
+      }
+    }
   },
   {
     "title": "11 January 2024",
